@@ -74,3 +74,24 @@ git commit //你的改动已经提交到了 HEAD，但是还没到你的远端�
 ~~~Bash
  git push
 ~~~
+##同步本地代码到github仓库
+* 第一步
+```Bash
+git add .
+```
+* 第二步：上传代码到HEAD
+~~~Bash
+git commit -m "注释"
+~~~
+* 第三步
+~~~Bash
+git remote add origin URL 
+~~~
+* 第四步
+~~~Bash
+git pull
+~~~
+* 第五步：提交到github仓库
+~~~Bash
+git push
+~~~
