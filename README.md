@@ -95,3 +95,11 @@ git pull
 ~~~Bash
 git push
 ~~~
+###报错：
+```git
+error: server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+```
+* git下设置：
+```git
+* git config --global http.sslVerify false
+```
